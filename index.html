@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>HighPoint Real Estate SmrtPhone to Salesforce Leads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #DBE9FA;
+        }
+        h1 {
+            color: #fff;
+            background-color: #2B3856;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: auto;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>HighPoint Real Estate SmrtPhone to Salesforce Leads</h1>
+   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D8V0000039GAg" method="POST">
+
+<input type=hidden name="oid" value="00D8V0000039GAg">
+<input type=hidden name="retURL" value="http://">
+
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+Property Street:<textarea  id="00N8V00000Om6gs" name="00N8V00000Om6gs" type="text" wrap="soft"></textarea><br>
+
+Property City:<input  id="00N8V00000Om6gq" maxlength="200" name="00N8V00000Om6gq" size="20" type="text" /><br>
+
+Property State:<input  id="00N8V00000Om6gr" maxlength="200" name="00N8V00000Om6gr" size="20" type="text" /><br>
+
+Property Zip:<input  id="00N8V00000Om6gt" maxlength="200" name="00N8V00000Om6gt" size="20" type="text" /><br>
+
+Bedrooms:<input  id="00N8V00000OcId9" name="00N8V00000OcId9" size="20" type="text" /><br>
+
+Bathrooms:<input  id="00N8V00000OcId8" name="00N8V00000OcId8" size="20" type="text" /><br>
+
+Square footage:<input  id="00N8V00000OcIdc" name="00N8V00000OcIdc" size="20" type="text" /><br>
+
+
+
+<label for="Campaign_ID">Campaign</label><select  id="Campaign_ID" name="Campaign_ID">
+<option value="">--None--</option>
+<option value="7018V000000sJ2S">Code Violations</option>
+<option value="7018V000001hWuq">Eviction CC</option>
+<option value="701Uk000008qp8I">Data Flik</option>
+</select><br>
+
+How soon do you need to sell?:<input  id="00N8V00000Hnquw" maxlength="255" name="00N8V00000Hnquw" size="20" type="text" /><br>
+
+Any Recent Updates?:<textarea  id="00N8V00000OcId6" name="00N8V00000OcId6" type="text" wrap="soft"></textarea><br>
+
+Repairs Needed?:<input  id="00N8V00000OcIdZ" maxlength="200" name="00N8V00000OcIdZ" size="20" type="text" /><br>
+
+Notes:<textarea  id="00N8V00000HnquXUAR" name="00N8V00000HnquXUAR" rows="25" type="text" wrap="soft"></textarea><script>CKEDITOR.timestamp = '4.24.0.4';
+var protocolAndHost = window.location.protocol + '//' + window.location.host;
+
+var editor = CKEDITOR.replace('00N8V00000HnquXUAR', {
+removePlugins : 'elementspath,maximize,image,tabletools,liststyle,contextmenu,resize',
+baseHref : protocolAndHost + '/ckeditor/ckeditor-4.x/rel/',
+customConfig : '/ckeditor/ckeditor-4.x/rel/sfdc-config.js',
+height : '425',
+bodyId : '00N8V00000HnquXUAR_rta_body',
+toolbar : 'SalesforceBasic',
+sfdcLabels :{CkeLineHeight : { doubleValue : 'Double', secondValue : '1.15', singleValue : 'Single', thirdValue : '1.5', title : 'Line Height'}, CkeCodeBlock : { addCodeSample : 'Add a code sample'}, CkeQuickText : { title : 'Insert quick text'}, CkeMediaEmbed : { description : 'Use &lt;iframe&gt; code from an approved video source.', example : '\n            \n                &lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/KcOm0TNvKBA\&quot; frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;\n            \n        ', exampleTitle : 'Example:', iframeMissing : 'Invalid &lt;iframe&gt; element. Please use valid code from the approved sites.', subtitle : 'Paste &amp;lt;iframe&amp;gt; code here:', title : 'Embed Multimedia Content'}, CkeImageMenu : { pasteUrl : 'Paste Image URL', title : 'Insert images into your message', uploadCms : 'Salesforce CMS', uploadFile : ' Browse or Upload', uploadSFFile : 'Salesforce Files', uploadUrl : 'Web Image'}, CkeImagePaste : { CkeImagePasteWarning : 'Pasting an image is not working properly with Firefox, please use [Copy Image location] instead.'}, CkeImageDialog : { btn_insert : 'Insert', btn_insert_tooltip : 'Insert Image', btn_upadte : 'Update', btn_update : 'Update', btn_update_tooltip : 'Update Image', defaultImageDescription : 'User-added image', error : 'Error:', httpUrlWarning : 'Are you sure you want to use an http URL? Using http image URLs may result in security warnings about insecure content. To avoid these warnings, use https image URLs instead.', imageUploadLimit_info : 'Max number of upload images exceeded', infoTab : 'Web Address', infoTab_desc : 'Description', infoTab_desc_info : 'Enter a description of the image for visually impaired users', infoTab_url : 'URL', infoTab_url_info : 'Example: http://www.mysite.com/myimage.jpg', invalidUrlError : 'You can only use http:, https:, data:, //, /, or relative URL schemes.', missingUrlError : 'You must enter a URL', title : 'Insert Image', uploadTab : 'Upload Image', uploadTab_desc : 'Description', uploadTab_desc_info : 'Enter a description of the image for visually impaired users', uploadTab_file : 'Select Image', uploadTab_file_info : 'Maximum size 1 MB. Only PNG, GIF or JPEG', wrongFileTypeError : 'You can insert only .gif .jpeg and .png files.'}, sfdcSwitchToText : { sfdcSwitchToTextAlt : 'Use plain text'}, CkeSmartLink : { SmartLinkContextMenuEdit : 'Edit Smart Link', title : 'Insert a Smart Link'}},
+contentsCss: ['/ckeditor/ckeditor-4.x/rel/contents.css', '/sCSS/63.0/sprites/1746865854000/Theme3/default/gc/CKEditor.css', '/sCSS/63.0/sprites/1746865854000/Theme3/default/gc/HtmlDetailElem.css'],
+disableNativeSpellChecker : false,
+language : 'en-US',
+allowIframe : false,
+isPardotOrg : false,
+isCmsOnly : false,
+sharedSpaces : { top : 'cke_topSpace', bottom : ' cke_bottomSpace' }
+,filebrowserImageUploadUrl : '/_ui/common/request/servlet/RtaImageUploadServlet?_CONFIRMATIONTOKEN=VmpFPSxNakF5TlMwd05TMHhOVlF4T1Rvd05UbzFNUzR3T0RSYSxEbC1KbkphR0hhakhWTGVnWjRDbm82V3drTDh1RHVEWFRleGItSFE2TmtrPSxOR0ZtTXpjMg=='
+,extraPlugins : 'sfdcImage,sfdcMediaEmbed,sfdcSmartLink,sfdcCodeBlock,sfdcVfAjax4J,sfdcLineHeight,sfdcQuickText'
+});
+
+editor.on('instanceReady', function( evt ) {
+    try {
+        var id = evt.editor.name;
+        CKiframe = document.getElementById('cke_' + id).querySelector('iframe');
+        meta = document.createElement('meta');
+        meta.setAttribute('name', 'referrer');
+        meta.setAttribute('content', 'no-referrer');
+        CKiframe.contentDocument.head.appendChild(meta);
+    } catch(e) {}
+} );
+
+</script><br>
+
+
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="hidden" name="debug" value="1">
+        
+    </form>
+</body>
+</html>
